@@ -2,6 +2,7 @@
 
 //Contar Vocales
 
+
 // Función par/impar 
 const comprobar = (n) => {
     if (n % 2 === 0) {
@@ -25,3 +26,15 @@ const max = (A, B, C) => {
 };
 
 module.exports = max;
+
+// Determinar si un número es primo 
+
+// Puedes conducir y votar?
+
+// Determinar si dos números son pares
+const areEven = (n, m) => {
+    return n % 2 === 0 && m % 2 === 0
+ 
+ };
+ 
+ module.exports = areEven;
