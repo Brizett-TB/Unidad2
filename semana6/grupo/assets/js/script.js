@@ -1,7 +1,20 @@
 // Invertir arreglo
 
 //Contar Vocales
-
+const countVowels = (str) => {
+    let counter = 0;  // Inicializa el contador a 0
+        const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];  // Lista de vocales
+    
+        // Itera sobre cada carácter de la cadena
+        for (let i = 0; i < str.length; i++) {
+            if (vowels.includes(str[i])) {  // Verifica si el carácter actual es una vocal
+                counter++;  // Incrementa el contador si es una vocal
+            }
+        }
+    
+        return counter;  // Retorna el número total de vocales
+    };
+    module.exports = countVowels;
 
 // Función par/impar 
 const comprobar = (n) => {
